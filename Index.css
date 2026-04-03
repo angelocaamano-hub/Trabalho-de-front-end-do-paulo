@@ -1,25 +1,69 @@
-header{
-  <h1{
-  color:blue  
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-  background:black
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient( to right,
+  #4facfe, #00f2fe);
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 10px rgba (0,0,0,0,2);
 }
 
 h1{
-  color: blue
-  
-}
-h2{
-  color: chartreuse
-}
-p {
-  color: cyan
+  color: #0077ff;
+  margin-bottom: 10px;
 }
 
-li{
-  color: darkblue
+h2 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-zise:16px
+}
+
+ul, ol {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  width:80%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0,2);
+}
+
+li {
+  margin: 10px 0;
+  font-zise: 18px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: #4facfe;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button hover{
+  
+  background: #0077ff;
+  transform:scale(1.05);
 }
 
