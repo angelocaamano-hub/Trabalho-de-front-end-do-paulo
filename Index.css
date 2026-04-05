@@ -67,3 +67,40 @@ button hover{
   transform:scale(1.05);
 }
 
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  margin: 20px auto;
+  display: block;
+}
+
+/* Página de introducción */
+.introduccion img {
+  border: 5px solid #00c6ff;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  padding: 5px;
+}
+
+/* Lista de datos personales */
+.datos img {
+  border: 5px solid #ff9f1c;
+  background: linear-gradient(135deg, #ff9f1c, #ffbf69);
+  padding: 5px;
+}
+
+/* Lista de películas */
+.peliculas img {
+  border: 5px solid #6a67ce;
+  background: linear-gradient(135deg, #6a67ce, #a084f5);
+  padding: 5px;
+}
+
+/* Lista de juegos */
+.juegos img {
+  border: 5px solid #ff4d6d;
+  background: linear-gradient(135deg, #ff4d6d, #ff758f);
+  padding: 5px;
+}
+
